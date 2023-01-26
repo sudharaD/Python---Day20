@@ -4,6 +4,9 @@
 from snake import Snake
 
 # TODO: move the snake
+snake = Snake()
+snake.move(snake.SNAKE_BODY_PARTS)
+
 # TODO: control the snake
 # TODO: detect collision with food
 # TODO: create a scoreboard
